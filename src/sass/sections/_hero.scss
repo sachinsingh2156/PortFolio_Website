@@ -24,8 +24,8 @@
   background-position: center;
   background-size: cover; */
   img {
-    height: 500px;
-    width: 400px;
+    height: 600px;
+    width: 240px;
     align-items: flex-end;
   }
   @include respond(phone) {
