@@ -23,7 +23,11 @@
   /* background: url("/src/assets/[your-image].png");
   background-position: center;
   background-size: cover; */
-
+  img {
+    height: 500px;
+    width: 400px;
+    align-items: flex-end;
+  }
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
